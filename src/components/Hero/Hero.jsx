@@ -1,5 +1,4 @@
 import styles from "./Hero.module.css"
-import 'bootstrap-icons/font/bootstrap-icons.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
