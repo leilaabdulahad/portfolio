@@ -3,9 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 const Hero = () => {
-  const getImageUrl = (imageName) => {
-    return `/assets/${imageName}`
-  };
+
   return (
     <section className={styles.container}>
       <div className={styles.content}>
@@ -42,9 +40,9 @@ const Hero = () => {
           <FontAwesomeIcon icon={faGithub} />
         </button>
         </div>
-      </div>s
+      </div>
     </section>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

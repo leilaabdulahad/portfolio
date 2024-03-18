@@ -1,106 +1,38 @@
-@import "../../vars.css";
-
-.container {
-  color: var(--color-text);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 100px;
+.experience-content {
+  background: #31363F;
+  color: #fff;
 }
-.title {
-  font-family: serif;
-  color: var(--color-text);
+
+.experience-arrow {
+  border-right: 5px solid #31363F;
+}
+
+.experience-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.experience-company {
+  color: #ccc;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.experience-point {
+  color: #fff;
+  font-size: 14px;
+  padding-left: 10px;
+  margin: 0;
+}
+h2{
   font-size: 35px;
-  font-weight: 2000;
-  letter-spacing: 3px;
-  margin-top: 100px;
+  font-weight: bold;
+  color: #fff;
   margin-bottom: 10px;
   text-align: center;
-}
-.content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 14px;
-}
-.skills {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-.skill {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1px;
-}
-.skillImageContainer {
-  background-color: #31363F;
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 90px;
-  height: 90px;
-  transition: 0.4s ease-in-out;
-}
-.skillImageContainer img {
-  width: 55px;
-  height: 50px;
-}
-.skillImageContainer:hover{
-    scale: 1.1;
-    
-}
-.skill p {
-  font-size: 20px;
-  font-family: var(--font-roboto);
-  font-weight: 500;
-  margin-top: 10px;
   font-family: serif;
 }
-.skillImageContainer {
-  background-color: #31363F;
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 90px;
-  height: 90px;
-  transition: 0.4s ease-in-out;
-}
-.skillImageContainer img {
-  width: 55px;
-  height: 50px;
-}
-.skillImageContainer img[src$="skills/ex.png"] {
-  width: 50px;
-  height: 30px;
-  margin-top: 5px;
-}
-.skillImageContainer img[src$="skills/mongodb.png"] {
-  width: 30px;
-}
-.skillImageContainer img[src$="skills/tailwind.png"] {
-  height: 35px;
-}
-.skillImageContainer img[src$="skills/nodejs.png"] {
-  width: 45px;
-}
-.skillImageContainer img[src$="skills/sql.png"] {
-  width: 40px;
-}
-@media screen and (max-width: 830px) {
-  .content {
-    flex-direction: column;
-    align-items: center;
-    gap: 34px;
-  }
-
-  .skills {
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
-  }
+a{
+  color: white;
 }

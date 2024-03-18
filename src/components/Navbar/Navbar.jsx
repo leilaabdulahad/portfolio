@@ -37,17 +37,22 @@ const Navbar = () => {
         >
           <li>
             <a href="#about" onClick={handleMenuItemClick}>
-              About me
+              About
             </a>
           </li>
           <li>
             <a href="#experience" onClick={handleMenuItemClick}>
-              My Toolkit
+              Experience
             </a>
           </li>
           <li>
             <a href="#projects" onClick={handleMenuItemClick}>
               Projects
+            </a>
+          </li>
+          <li>
+            <a href="#skills" onClick={handleMenuItemClick}>
+              My Toolkit
             </a>
           </li>
           <li>
