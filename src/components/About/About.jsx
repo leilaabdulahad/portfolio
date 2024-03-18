@@ -25,7 +25,7 @@ const About = () => {
                 </div>
                 <div className={styles.detail}>
                   <p>Frontend Developer at KYH, Stockholm</p>
-                  <span>I'm gaining practical experience in frontend development with a focus on HTML, CSS, JS, and React including TS and backend development.</span>
+                  <span>I'm gaining practical experience in frontend development with a focus on HTML, CSS, JS, TS, along with backend development uing technologies such as Node.js and databases like MongoDB.</span>
                   <span>2023-</span>
                 </div>
 
