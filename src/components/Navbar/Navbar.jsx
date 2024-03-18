@@ -37,12 +37,12 @@ const Navbar = () => {
         >
           <li>
             <a href="#about" onClick={handleMenuItemClick}>
-              About
+              About me
             </a>
           </li>
           <li>
             <a href="#experience" onClick={handleMenuItemClick}>
-              Experience
+              My Toolkit
             </a>
           </li>
           <li>
@@ -61,4 +61,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar

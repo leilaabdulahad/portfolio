@@ -7,14 +7,12 @@
     font-family: serif;
   }
   
-  ul {
-    list-style: none;
-  }
   
   .title {
     font-size: 35px;
     margin-bottom: 20px;
     text-align: center;
+    font-family: serif;
   }
   
   .content {
@@ -24,46 +22,43 @@
   
   .aboutItems {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    flex-wrap: wrap; 
     gap: 20px;
-    justify-content: center; /* Center items horizontally */
+    justify-content: center; 
+  }
+  ul {
+    list-style: none;
   }
   
   .aboutItem {
     background-color: #31363F;
     border-radius: 10px;
     padding: 20px;
-    flex: 1; /* Each item takes up equal space */
+    flex: 1; 
     transition: 0.3s;
-    max-width: 600px; /* Limit maximum width */
+    max-width: 600px; 
   }
-  
   .aboutItemText h3 {
     font-size: 28px;
     margin-bottom: 20px;
   }
-  
   .detail {
     margin-bottom: 20px;
   }
-  
   .detail p {
     font-size: 20px;
     margin-bottom: 5px;
   }
-  
   .detail span {
     font-size: 17px;
     display: inline-block;
     margin-bottom: 10px;
   }
-  
   .detail a {
     color: gray;
     text-decoration: none;
     display: block;
   }
-  
   .detail a:hover {
     color: rgb(255, 255, 255);
     text-decoration: underline;
@@ -71,16 +66,16 @@
   
   @media screen and (max-width: 768px) {
     .content {
-      flex-direction: column; /* Stack items in a column */
+      flex-direction: column; 
     }
     
     .aboutItems {
-      align-items: center; /* Center items vertically */
+      align-items: center; 
     }
   
     .aboutItem {
-      width: calc(100% - 40px); /* Adjust width to fit the screen */
-      margin-bottom: 20px; /* Add margin between stacked items */
+      width: calc(100% - 40px);
+      margin-bottom: 20px; 
     }
   }
   

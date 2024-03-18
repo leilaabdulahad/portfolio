@@ -1,6 +1,6 @@
-import React from "react";
-import styles from "./About.module.css";
-import Tilty from 'react-tilty';
+import React from "react"
+import styles from "./About.module.css"
+import Tilty from 'react-tilty'
 
 const About = () => {
   return (
@@ -13,7 +13,7 @@ const About = () => {
               <div className={styles.aboutItemText}>
                 <h3>Education</h3>
                 <div className={styles.detail}>
-                  <p>CS50: Databases and SQL</p>
+                  <p>CS50: Introduction to Databases with SQL</p>
                   <span>Delving deeper into the realm of databases and SQL, this course is equipping me with the essential skills needed to design, manage, and query databases effectively. From database modeling to complex SQL queries, I'm gaining valuable insights into handling and analyzing data efficiently.</span>
                   <span>2024-</span>
                 </div>

@@ -1,6 +1,6 @@
 import styles from "./Contact.module.css"
 import { getImageUrl } from "../../utils"
-import contactInfo from "../../data/contactInfo.json"
+import contact from "../../data/contact.json"
 
 const Contact = () => {
   return (
@@ -12,7 +12,7 @@ const Contact = () => {
         Feel free to reach out to me for any inquiries. You can contact me through the following channels:
       </p>
       <ul className={styles.links}>
-        {contactInfo.map((info, index) => (
+        {contact.map((info, index) => (
           <li key={index} className={styles.link}>
             <a href={info.href}>
               <img className={styles.contactIcon} src={getImageUrl(info.src)} alt={info.alt} />

@@ -1,7 +1,7 @@
-import styles from "./Hero.module.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import styles from "./Hero.module.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 const Hero = () => {
   const getImageUrl = (imageName) => {
     return `/assets/${imageName}`
@@ -11,8 +11,7 @@ const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Leila Abdulahad</h1>
         <p className={styles.description}>
-          
-        I am a passionate frontend developer student deeply interested in all things tech. Currently, I'm also actively engaged in the CS50 Databases and SQL course, having recently completed CS50's Introduction to Computer Science.
+        As an enthusiastic student pursuing frontend development, I harbor a profound interest in various aspects of technology. Presently, I am immersing myself in the CS50: Introduction to Databases with SQL course while celebrating my recent accomplishment of completing CS50's Introduction to Computer Science. 
         </p>
         <div>
         <button 
@@ -43,16 +42,7 @@ const Hero = () => {
           <FontAwesomeIcon icon={faGithub} />
         </button>
         </div>
-      </div>
-      {/* <div className="">
-     <img
-        src={getImageUrl("hero/hero-img2.png")}
-        alt="Hero image of me"
-        className={styles.heroImg}
-        /> 
-      </div> */}
-      <div className={styles.topBlur} />
-      <div className={styles.bottomBlur} />
+      </div>s
     </section>
   );
 };

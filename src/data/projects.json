@@ -3,7 +3,7 @@
       "title": "Social media application",
       "imageSrc": "projects/img4.png",
       "description": "This project is built with React, Redux toolkit, Tailwind, Node.js, Express and MongoDB. It's a responsive social media platform aimed at fostering connections between users through posting content, adding friends, and engaging with each other's posts. Users can create posts with text and images, connect with others by adding them to their friends list, and interact by liking and commenting on posts. The project is still a work in progress and was built as part of the CS50x course. Checkout the GitHub repository for more details including a video.",
-      "source": "https://github.com/leilaabdulahad/cs50x-final-project"
+      "source": "https://github.com/leilaabdulahad/cs50-final-project"
     },
     {
       "title": "E-commerce application",
