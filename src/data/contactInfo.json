@@ -1,0 +1,17 @@
+[
+    {
+        "href": "mailto:leilaabdulahad@hotmail.com",
+        "src": "contact/emailIcon.png",
+        "alt": "Email icon"
+    },
+    {
+        "href": "https://www.linkedin.com/in/leila-abdulahad-a5672b264",
+        "src": "contact/linkedinIcon.png",
+        "alt": "LinkedIn icon"
+    },
+    {
+        "href": "https://github.com/leilaabdulahad",
+        "src": "contact/githubIcon.png",
+        "alt": "Github icon"
+    }
+]

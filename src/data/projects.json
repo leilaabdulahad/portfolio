@@ -1,0 +1,21 @@
+[
+    {
+      "title": "Social media application",
+      "imageSrc": "projects/img4.png",
+      "description": "This project is built with React, Redux toolkit, Tailwind, Node.js, Express and MongoDB. It's a responsive social media platform aimed at fostering connections between users through posting content, adding friends, and engaging with each other's posts. Users can create posts with text and images, connect with others by adding them to their friends list, and interact by liking and commenting on posts. The project is still a work in progress and was built as part of the CS50x course. Checkout the GitHub repository for more details including a video.",
+      "source": "https://github.com/leilaabdulahad/cs50x-final-project"
+    },
+    {
+      "title": "E-commerce application",
+      "imageSrc": "projects/img1.png",
+      "description": "An e-commerce website built with React, Redux Toolkit, Bootstrap, and CSS. Through a combination of these technologies, I have managed to create a platform that offers easy navigation, efficient management of the shopping cart, seamless login and logout with preserved shopping history, as well as simple and fast checkout. I'm currently working on the backend of the project using Node.js, Express, and MongoDB. The project is still a work in progress. Checkout the GitHub repository for more details and images.",
+      "source": "https://github.com/leilaabdulahad/react-project"
+    },
+    {
+      "title": "To do application",
+      "imageSrc": "projects/todo.png",
+      "description": "A todo application built using JavaScript, HTML, and CSS. The application utilizes fetch requests to interact with the API and enables features such as adding, removing, and marking tasks as completed.",
+      "demo": "https://leilatodoapp.netlify.app/",
+      "source": "https://github.com/leilaabdulahad/todo-final-project/tree/main"
+    }
+  ]
