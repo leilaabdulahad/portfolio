@@ -54,20 +54,6 @@
 .contactBtn:hover{
   background-color: #1c2b26;
 }
-.heroImg {
-  width: 250px;
-  height: 250px;
-  z-index: 1;
-  border-radius: 60%;
-  margin-bottom: 50px;
-  margin-left: 100px;
-
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  border-radius: 100%;
-}
 
 @keyframes floating {
   0% {

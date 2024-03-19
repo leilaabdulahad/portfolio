@@ -1,6 +1,7 @@
 .experience-content {
   background: #31363F;
   color: #fff;
+  font-family: serif;
 }
 
 .experience-arrow {
@@ -11,12 +12,14 @@
   color: #fff;
   font-size: 24px;
   font-weight: bold;
+  font-family: serif;
 }
 
 .experience-company {
   color: #ccc;
   font-size: 16px;
   font-weight: bold;
+  font-family: serif;
 }
 
 .experience-point {
@@ -35,4 +38,5 @@ h2{
 }
 a{
   color: white;
+  font-family: serif;
 }

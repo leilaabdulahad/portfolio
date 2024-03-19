@@ -1,7 +1,7 @@
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css"
 import { motion } from "framer-motion"
-import styles from './Experience.module.css'
+import './Experience.module.css'
 
 
 export const experiences = [
@@ -37,6 +37,14 @@ export const experiences = [
     points: [
       "As a Swedish as Second Language teacher, I had the opportunity to foster an inclusive learning environment for students from diverse linguistic backgrounds. I facilitated language acquisition through engaging lessons and tailored approaches."
     ]
+  },
+  {
+    date: "2018-2023",
+    title: "Subject Teacher Education Program specializing in English and Swedish as Second Language",
+    company: "Stockholm University",
+    points: [
+      "This program has equipped me with the essential pedagogical skills needed to teach English and Swedish as a Second Language to students at various levels. I have gained practical experience in planning and delivering engaging lessons, assessing student progress, and creating a supportive learning environment."
+    ]
   }
 ]
 
@@ -68,13 +76,14 @@ const ExperienceCard = ({ experience }) => {
       iconStyle={{ background: '#31363F' }}>
 
       <div>
-        <h3 className="experience-title">{experience.title} </h3>
-        <p className="experience-company">{experience.company}</p>
+        <h3 className="experience-title" style={{ marginBottom: '0' }}>{experience.title}</h3>
+        <p className="experience-company" style={{ marginTop: '0' }}>{experience.company}</p>
       </div>
+
 
       <ul style={{ listStyleType: 'none' }}>
         {experience.points.map((point, index) => (
-          <li key={`experience-point-${index}`} style={{ marginBottom: '10px' }}>
+          <li className="list" key={`experience-point-${index}`} style={{ marginTop: '5px' }}>
             {point}
           </li>
         ))}

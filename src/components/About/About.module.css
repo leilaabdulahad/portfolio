@@ -1,0 +1,31 @@
+.tilty {
+  transition: transform 0.3s ease;
+}
+
+.tilty:hover {
+  transform: scale(1.05) rotate(2deg);
+}
+
+.about {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 90px auto 160px auto; 
+  max-width: 600px; 
+  background-color: #343a40;
+  color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  
+}
+
+.heading {
+  font-size: 35px; 
+  font-family: serif;
+  margin-bottom: 10px; 
+}
+
+.description {
+  padding: 10px;
+  font-size: 1.1rem; 
+  line-height: 1.6;
+  text-align: center; 
+}

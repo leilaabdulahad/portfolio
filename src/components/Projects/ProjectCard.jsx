@@ -3,7 +3,7 @@ import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
 
 export const ProjectCard = ({
-  project: { title, imageSrc, description, demo, source },
+  project: { title, imageSrc, description, demo, source, youtube },
 }) => {
   const [isReadMore, setIsReadMore] = useState(false);
   const shortDescription = description.split(" ").slice(0, 16).join(" ");
@@ -29,6 +29,11 @@ export const ProjectCard = ({
           <a href={demo} className={styles.link}>
           Live demo
         </a>
+          )}
+          {youtube && (
+            <a href={youtube} className={styles.link}>
+              YouTube
+            </a>
           )}
         <a href={source} className={styles.link}>
           GitHub
