@@ -18,7 +18,7 @@ export const experiences = [
     title: "Frontend Developer",
     company: "Student KYH Stockholm",
     points: [
-      "I'm gaining practical experience in frontend development with a focus on HTML, CSS, JS, TS, along with backend development uing technologies such as Node.js and databases like MongoDB."
+      "I'm gaining practical experience in frontend development with a focus on HTML, CSS, JS, TS, along with backend development using technologies such as Node.js and databases like MongoDB."
     ]
   },
   {
