@@ -7,6 +7,14 @@ import './Experience.module.css'
 export const experiences = [
   {
     date: "2024 - present",
+    title: "Webbdesign with JavaScript and Document Object Model",
+    company: "Umeå University",
+    points: [
+      "The course emphasizes JavaScript and DOM, providing both theoretical understanding and practical skills in shaping dynamic web behavior through DOM manipulation with JavaScript, and introduces modern web development techniques facilitated by script libraries."
+    ]
+  },
+  {
+    date: "2024 - present",
     title: "CS50: Introduction to Databases with SQL",
     company: "Harvard University",
     points: [
