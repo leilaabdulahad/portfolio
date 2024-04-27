@@ -9,7 +9,7 @@ const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Leila Abdulahad</h1>
         <p className={styles.description}>
-        As an enthusiastic student pursuing frontend development, I harbor a profound interest in various aspects of technology. Presently, I am immersing myself in the CS50: Introduction to Databases with SQL course while celebrating my recent accomplishment of completing CS50's Introduction to Computer Science. 
+        As an enthusiastic student pursuing frontend development, I harbor a profound interest in various aspects of technology. Currently, I am immersing myself in the CS50: Introduction to Databases with SQL course while celebrating my recent accomplishment of completing CS50's Introduction to Computer Science. 
         </p>
         <div>
         <button 

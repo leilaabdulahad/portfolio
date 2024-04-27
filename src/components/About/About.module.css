@@ -14,18 +14,21 @@
   background-color: #343a40;
   color: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  
 }
 
 .heading {
   font-size: 35px; 
   font-family: serif;
   margin-bottom: 10px; 
+  color: #ffffff; 
 }
 
+
 .description {
+  font-size: 1.5rem;
   padding: 10px;
-  font-size: 1.1rem; 
   line-height: 1.6;
   text-align: center; 
+  font-family: serif;
+  margin-bottom: 20px;
 }
