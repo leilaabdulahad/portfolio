@@ -7,14 +7,18 @@ import nodeImage from '../../../assets/skills/nodejs.png'
 import expressImage from '../../../assets/skills/express.png'
 import mongoImage from '../../../assets/skills/mongodb.png'
 import jsImage from '../../../assets/skills/javascript.png'
-import pythonImage from '../../../assets/skills/python.png'
 import reduxImage from '../../../assets/skills/redux.png'
 import sqlImage from '../../../assets/skills/sql.png'
+import nextjsImage from '../../../assets/skills/nextjs.png'
 
 const skills = [
   {
     "title": "React",
     "imageSrc": reactImage
+  },
+  {
+    "title": "Next.js",
+    "imageSrc": nextjsImage
   },
   {
     "title": "JavaScript",
@@ -39,10 +43,6 @@ const skills = [
   {
     "title": "Tailwind",
     "imageSrc": tailwindImage
-  },
-  {
-    "title": "Python",
-    "imageSrc": pythonImage
   },
   {
     "title": "SQL",
