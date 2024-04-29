@@ -44,6 +44,9 @@
   border-radius: 20px;
   color: var(--color-text);
 }
+.readMoreButton:hover {
+  cursor: pointer;
+}
 
 .image {
   margin-bottom: 26px;
