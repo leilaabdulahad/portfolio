@@ -36,7 +36,7 @@
   gap: 1px;
 }
 .skillImageContainer {
-  background-color: #31363F;
+  background-color: #197bdda8;
   border-radius: 100%;
   display: flex;
   align-items: center;
@@ -61,7 +61,7 @@
   font-family: serif;
 }
 .skillImageContainer {
-  background-color: #31363F;
+  background-color: #343a40a8;
   border-radius: 100%;
   display: flex;
   align-items: center;

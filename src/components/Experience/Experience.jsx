@@ -77,9 +77,10 @@ export const textVariant = () => {
 
 const ExperienceCard = ({ experience }) => {
   return (
+
     <VerticalTimelineElement
-      contentStyle={{ background: "#31363F", color: "#fff" }}
-      contentArrowStyle={{ borderRight: "5px solid  #31363F" }}
+      contentStyle={{ background: "#343a40a8", color: "#fff" }}
+      contentArrowStyle={{ borderRight: "5px solid  #343a40a8" }}
       date={experience.date}
       iconStyle={{ background: '#31363F' }}>
 

@@ -40,7 +40,7 @@
 
 .contactBtn {
   text-decoration: none;
-  background-color: #5c5d71;
+  background-color: #343a40a8;
   color: rgb(221, 220, 220);
   border-radius: 100px;
   width: 100px;
@@ -52,7 +52,8 @@
   margin-bottom: 20px;
 }
 .contactBtn:hover{
-  background-color: #1c2b26;
+  cursor: pointer;
+  background-color: #343a40;
 }
 
 @keyframes floating {
