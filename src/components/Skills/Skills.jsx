@@ -1,17 +1,21 @@
 import React from "react"
 import styles from "./Skills.module.css"
 import tailwindImage from '../../../assets/skills/tailwind.png'
-import cypressImage from '../../../assets/skills/cypress.png'
 import reactImage from '../../../assets/skills/1react.png'
 import nodeImage from '../../../assets/skills/nodejs.png'
 import expressImage from '../../../assets/skills/express.png'
 import mongoImage from '../../../assets/skills/mongodb.png'
 import jsImage from '../../../assets/skills/javascript.png'
 import reduxImage from '../../../assets/skills/redux.png'
-import sqlImage from '../../../assets/skills/sql.png'
 import nextjsImage from '../../../assets/skills/nextjs.png'
+import vuejsImage from '../../../assets/skills/vue.png'
+
 
 const skills = [
+  {
+    "title": "JavaScript",
+    "imageSrc": jsImage
+  },
   {
     "title": "React",
     "imageSrc": reactImage
@@ -21,8 +25,8 @@ const skills = [
     "imageSrc": nextjsImage
   },
   {
-    "title": "JavaScript",
-    "imageSrc": jsImage
+    "title": "Vue.js",
+    "imageSrc": vuejsImage
   },
   {
     "title": "Node.js",
@@ -43,14 +47,6 @@ const skills = [
   {
     "title": "Tailwind",
     "imageSrc": tailwindImage
-  },
-  {
-    "title": "SQL",
-    "imageSrc": sqlImage
-  },
-  {
-    "title": "Cypress",
-    "imageSrc": cypressImage
   },
 ];
 
