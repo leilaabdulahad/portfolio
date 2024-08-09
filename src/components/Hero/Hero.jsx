@@ -2,15 +2,16 @@ import styles from "./Hero.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import hero from "../../data/hero.json"
+
 const Hero = () => {
+  const heroText = hero[0].hero
 
   return (
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>Leila Abdulahad</h1>
-        <p className={styles.description}>
-        As an enthusiastic student pursuing frontend development, I harbor a profound interest in various aspects of technology. Currently, I am immersing myself in the CS50: Introduction to Databases with SQL course while celebrating my recent accomplishment of completing CS50's Introduction to Computer Science. 
-        </p>
+        <p className={styles.description}>{heroText}</p>
         <div>
         <button 
           className={styles.contactBtn} 

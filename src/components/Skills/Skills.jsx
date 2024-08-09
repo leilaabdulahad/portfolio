@@ -9,6 +9,7 @@ import jsImage from '../../../assets/skills/javascript.png'
 import reduxImage from '../../../assets/skills/redux.png'
 import nextjsImage from '../../../assets/skills/nextjs.png'
 import vuejsImage from '../../../assets/skills/vue.png'
+import convex from '../../../assets/skills/convex.png'
 
 
 const skills = [
@@ -39,6 +40,10 @@ const skills = [
   {
     "title": "Express",
     "imageSrc": expressImage
+  },
+  {
+    "title": "Convex",
+    "imageSrc": convex
   },
   {
     "title": "Redux",

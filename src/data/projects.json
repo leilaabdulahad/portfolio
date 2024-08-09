@@ -1,9 +1,14 @@
 [
-
+    {
+      "title": "Teacher platform",
+      "imageSrc": "projects/img5.png",
+      "description": "This project is built with NextJS, Tailwind and convex. It is a platform aimed for teacher where they can easily access teaching materials. I will continue to expand into this project and include interactive teaching games for students as well. Please checkout the GitHub repository for more of a detailed description.",
+      "source": "https://github.com/leilaabdulahad/nextjs-lektionsmaterial"
+    },
     {
       "title": "Social media application",
       "imageSrc": "projects/img4.png",
-      "description": "This project is built with React, Redux toolkit, Tailwind, Node.js, Express and MongoDB. It's a responsive social media platform aimed at fostering connections between users through posting content, adding friends, and engaging with each other's posts. Users can create posts with text and images, connect with others by adding them to their friends list, and interact by liking and commenting on posts. The project is still a work in progress and was built as part of the CS50x course. Checkout the GitHub repository for more details. Click on the YouTube link to watch a demo of the project.",
+      "description": "This project is built with React, Redux toolkit, Tailwind, Node.js, Express and MongoDB. It's a responsive social media platform aimed at fostering connections between users through posting content, adding friends, and engaging with each other's posts. Users can create posts with text and images, connect with others by adding them to their friends list, and interact by liking and commenting on posts. The project is still a work in progress and was built as part of the CS50x course.",
       "source": "https://github.com/leilaabdulahad/cs50-final-project",
       "youtube": "https://www.youtube.com/watch?v=ZT7-0moHYL4&feature=youtu.be"
     },
@@ -17,8 +22,9 @@
       "title": "To do application",
       "imageSrc": "projects/todo.png",
       "description": "A todo application built using JavaScript, HTML, and CSS. The application utilizes fetch requests to interact with the API and enables features such as adding, removing, and marking tasks as completed.",
-      "demo": "https://leilatodoapp.netlify.app/",
-      "source": "https://github.com/leilaabdulahad/todo-final-project/tree/main"
+      "source": "https://github.com/leilaabdulahad/todo-final-project/tree/main",
+      "demo": "https://leilatodoapp.netlify.app/"
     }
 
   ]
+

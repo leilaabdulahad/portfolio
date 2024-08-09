@@ -35,11 +35,11 @@ const Navbar = () => {
         <ul
           className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`}
         >
-          <li>
+          {/* <li>
             <a href="#about" onClick={handleMenuItemClick}>
               About
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#experience" onClick={handleMenuItemClick}>
               Experience

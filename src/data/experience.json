@@ -1,0 +1,42 @@
+[
+    {
+      "date": "2024 - ",
+      "title": "Computer and Systems Sciences I, 30hp",
+      "company": "Stockholm University",
+      "points": [
+        "This course package offers a practical introduction to programming and systems development methodologies, providing hands-on experience and foundational knowledge in the field."
+      ]
+    },
+    {
+      "date": "2024 - 2024",
+      "title": "Webbdesign with JavaScript and Document Object Model, 7,5hp",
+      "company": "Umeå University",
+      "points": [
+        "The course emphasizes JavaScript and DOM, providing both theoretical understanding and practical skills in shaping dynamic web behavior through DOM manipulation with JavaScript, and introduces modern web development techniques facilitated by script libraries."
+      ]
+    },
+    {
+      "date": "2023 - ",
+      "title": "Frontend Developer",
+      "company": "Student KYH Stockholm",
+      "points": [
+        "I'm gaining practical experience in frontend development with a focus on HTML, CSS, JS, TS, along with backend development using technologies such as Node.js and databases like MongoDB."
+      ]
+    },
+      {
+        "date": "2023",
+        "title": "Swedish as second language teacher",
+        "company": "Internationella Engelska Skolan",
+        "points": [
+          "As a Swedish as Second Language teacher, I had the opportunity to foster an inclusive learning environment for students from diverse linguistic backgrounds. I facilitated language acquisition through engaging lessons and tailored approaches."
+        ]
+      },
+      {
+        "date": "2018-2023",
+        "title": "Subject Teacher Education Program specializing in English and Swedish as Second Language",
+        "company": "Stockholm University",
+        "points": [
+          "This program has equipped me with the essential pedagogical skills needed to teach English and Swedish as a Second Language to students at various levels. I have gained practical experience in planning and delivering engaging lessons, assessing student progress, and creating a supportive learning environment."
+        ]
+      }
+    ]
