@@ -15,7 +15,6 @@
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
-  
 }
 
 .menuBtn {
@@ -23,8 +22,6 @@
   color: white; 
   height: 45px; 
   object-fit: cover;
-}
-.menuBtn {
   display: none;
 }
 
@@ -37,7 +34,6 @@
   gap: 27px;
   list-style: none;
 }
-
 
 .menuItems a {
   font-family: serif;
@@ -59,7 +55,6 @@
   .menu {
     position: absolute;
     right: 0;
-    margin-right: 10%;
     flex-direction: column;
     align-items: flex-end;
     gap: 11px;
@@ -74,7 +69,7 @@
     flex-direction: column;
     align-items: center;
     width: 200px;
-    height: 210px;
+    height: 180px;
     gap: 13px;
     border-radius: 10px;
     background: #1a3f58f9;

@@ -7,13 +7,13 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const handleMenuBtnClick = (e) => {
-    setMenuOpen(!menuOpen);
+    setMenuOpen(!menuOpen)
     e.stopPropagation()
-  };
+  }
 
   const handleMenuItemClick = () => {
     setMenuOpen(false);
-  };
+  }
 
   return (
     <nav className={styles.navbar}>
@@ -33,13 +33,7 @@ const Navbar = () => {
           />
         )}
         <ul
-          className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`}
-        >
-          {/* <li>
-            <a href="#about" onClick={handleMenuItemClick}>
-              About
-            </a>
-          </li> */}
+          className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`}>
           <li>
             <a href="#experience" onClick={handleMenuItemClick}>
               Experience
@@ -63,7 +57,7 @@ const Navbar = () => {
         </ul>
       </div>
     </nav>
-  );
-};
+  )
+}
 
 export default Navbar
