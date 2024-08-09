@@ -1,4 +1,4 @@
-@import "../../vars.css";
+
 
 .container {
   display: flex;
@@ -6,7 +6,6 @@
   justify-content: space-between;
   border-radius: 10px;
   background-color: #343a40a8;
-  color: var(--color-text);
   box-shadow: 1px 1px 1px rgba(72, 72, 72, 0.5);
   padding: 18px 24px;
   max-width: 300px;

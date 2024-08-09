@@ -1,4 +1,4 @@
-@import "../../vars.css";
+
 
 .navbar {
   position: relative;
@@ -38,13 +38,12 @@
 .menuItems a {
   font-family: serif;
   font-size: 20px;
-  color: var(--color-text);
   text-decoration: none;
   transition: 0.3s ease;
   font-weight: 600;
 }
 .menuItems a:hover{
-  color: grey;
+  color: rgb(192, 189, 189);
 }
 
 @media screen and (max-width: 830px) {

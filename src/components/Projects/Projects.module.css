@@ -1,8 +1,7 @@
-@import "../../vars.css";
 
 .container {
   margin-top: 160px;
-  color: var(--color-text);
+  color: white;
   margin-left: 10%;
   margin-right: 10%;
 }
