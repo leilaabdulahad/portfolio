@@ -8,11 +8,16 @@ import reduxImage from '../../assets/skills/redux.png'
 import nextjsImage from '../../assets/skills/nextjs.png'
 import vuejsImage from '../../assets/skills/vue.png'
 import convex from '../../assets/skills/convex.png'
+import typescript from '../../assets/skills/typescript.png'
 
 export const skills = [
     {
       "title": "JavaScript",
       "imageSrc": jsImage
+    },
+    {
+      "title": "TypeScript",
+      "imageSrc": typescript
     },
     {
       "title": "React",
