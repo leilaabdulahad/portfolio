@@ -1,5 +1,11 @@
 [
     {
+      "title": "Online Forum",
+      "imageSrc": "projects/forum.png",
+      "description": "This project is built with Next.js, Typescript, MongoDB, Tailwind and Clerk. It is a platform where users can create an account, post questions, and comment on other users' threads. Please checkout the GitHub repository for more of a detailed description.",
+      "source": "https://github.com/leilaabdulahad/nextjs-forum"
+    },
+    {
       "title": "Teacher platform",
       "imageSrc": "projects/img5.png",
       "description": "This project is built with Next.js, Tailwind and convex. It is a platform aimed for teacher where they can easily access teaching materials. I will continue to expand into this project and include interactive teaching games for students as well. Please checkout the GitHub repository for more of a detailed description.",
