@@ -46,7 +46,7 @@ const Navbar = () => {
           </li>
           <li>
             <a href="#skills" onClick={handleMenuItemClick}>
-              My Toolkit
+              Toolkit
             </a>
           </li>
           <li>

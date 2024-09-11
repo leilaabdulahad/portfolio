@@ -5,7 +5,7 @@ import { skills } from '../../data/skills'
 const Skills = () => {
   return (
     <section className={styles.container} id="skills">
-      <h2 className={styles.title}>My Toolkit</h2>
+      <h2 className={styles.title}>Toolkit</h2>
       <div className={styles.content}>
         <div className={styles.skills}>
           {skills.map((skill, id) => {
