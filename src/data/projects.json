@@ -1,15 +1,22 @@
 [
     {
+      "title": "Booking platform",
+      "imageSrc": "projects/eurbnb.png",
+      "description": "A full-stack booking website built with Vue 3, TypeScript, Express.js, MongoDB, and Clerk for authentication. Users can search and filter properties, book available ones, and manage their bookings and favorites.      ",
+      "source": "https://github.com/leilaabdulahad/vue-booking-website"
+    },
+    {
       "title": "Online Forum",
       "imageSrc": "projects/forum.png",
-      "description": "This project is built with Next.js, Typescript, MongoDB, Tailwind and Clerk. It is a platform where users can create an account, post questions, and comment on other users' threads. Please checkout the GitHub repository for more of a detailed description.",
+      "description": "This project is built with Next.js, Typescript, MongoDB, Tailwind and Clerk. It is a platform where users can create an account, post questions, and comment on other users' threads. Checkout the GitHub repository for more of a detailed description.",
       "source": "https://github.com/leilaabdulahad/nextjs-forum"
     },
     {
       "title": "Teacher platform",
-      "imageSrc": "projects/img5.png",
-      "description": "This project is built with Next.js, Tailwind and convex. It is a platform aimed for teacher where they can easily access teaching materials. I will continue to expand into this project and include interactive teaching games for students as well. Please checkout the GitHub repository for more of a detailed description.",
-      "source": "https://github.com/leilaabdulahad/nextjs-lektionsmaterial"
+      "imageSrc": "projects/lekmaterial.png",
+      "description": "This project is built with Next.js, Tailwind and Convex. It is a platform aimed for teacher where they can easily access teaching materials. The platform is built with a responsive design and a user-friendly interface. Please checkout the GitHub repository for more of a detailed description.",
+      "source": "https://github.com/leilaabdulahad/nextjs-lektionsmaterial",
+      "demo": "https://lektionsmaterial.vercel.app"
     },
     {
       "title": "Social media application",
@@ -17,20 +24,6 @@
       "description": "This project is built with React, Redux toolkit, Tailwind, Node.js, Express and MongoDB. It's a responsive social media platform aimed at fostering connections between users through posting content, adding friends, and engaging with each other's posts. Users can create posts with text and images, connect with others by adding them to their friends list, and interact by liking and commenting on posts. The project is still a work in progress and was built as part of the CS50x course.",
       "source": "https://github.com/leilaabdulahad/cs50-final-project",
       "youtube": "https://www.youtube.com/watch?v=ZT7-0moHYL4&feature=youtu.be"
-    },
-    {
-      "title": "E-commerce application",
-      "imageSrc": "projects/img1.png",
-      "description": "An e-commerce website built with React, Redux Toolkit, Bootstrap, and CSS. Through a combination of these technologies, I have managed to create a platform that offers easy navigation, efficient management of the shopping cart, seamless login and logout with preserved shopping history, as well as simple and fast checkout. I'm currently working on the backend of the project using Node.js, Express, and MongoDB. The project is still a work in progress. Checkout the GitHub repository for more details and images.",
-      "source": "https://github.com/leilaabdulahad/react-project"
-    },
-    {
-      "title": "To do application",
-      "imageSrc": "projects/todo.png",
-      "description": "A todo application built using JavaScript, HTML, and CSS. The application utilizes fetch requests to interact with the API and enables features such as adding, removing, and marking tasks as completed.",
-      "source": "https://github.com/leilaabdulahad/todo-final-project/tree/main",
-      "demo": "https://leilatodoapp.netlify.app/"
     }
-
   ]
 
